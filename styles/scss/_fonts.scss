@@ -1,0 +1,110 @@
+/*fonts*/
+
+.txt-tittle {
+    font-weight: 600;
+    font-size: var(--fs-lg);
+    line-height: 70px;
+}
+
+.txt-subtext {
+    font-weight: 400;
+    font-size: var(--fs-subtext);
+    line-height: 25px;
+    color: var(--black);
+}
+
+.h2 {
+    font-weight: 600;
+    font-size: var(--fs-h2);
+    line-height: 60px;
+    color: var(--black);
+}
+
+.h5 {
+    font-weight: 600;
+    font-size: var(--fs-h5);
+    line-height: 40px;
+    color: var(--black);
+}
+
+.h6 {
+    font-weight: 600;
+    font-size: var(--fs-h6);
+    line-height: 35px;
+    color: var(--black);
+}
+
+.txt-description {
+    font-weight: 400;
+    font-size: var(--fs-description);
+    line-height: 30px;
+    color: var(--black);
+}
+
+.selection {
+    text-decoration: underline;
+    color: var(--black);
+}
+
+.info-txt {
+    font-weight: 600;
+    font-size: var(--fs-description);
+    line-height: 30px;
+    color: var(--black);
+}
+
+.txt-localize {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--black);
+}
+
+.improve-txt {
+    font-weight: 400;
+    font-size: var(--fs-h5);
+    line-height: 40px;
+    color: var(--black);
+}
+
+.h4 {
+    color: var(--black);
+    font-weight: 600;
+    font-size: var(--fs-h4);
+    line-height: 50px;
+}
+
+.toolls-txt {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--black);
+}
+
+.h3 {
+    font-weight: 600;
+    font-size: var(--fs-h3);
+    line-height: 50px;
+    color: var(--black);
+}
+
+.footer-txt {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: var(--fs-description);
+    color: var(--black);
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: var(--fs-subtext);
+    line-height: 15px;
+    color: black;
+}
+
+.lower-txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--black);
+}

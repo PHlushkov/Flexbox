@@ -1,0 +1,60 @@
+:root {
+    /*font-size*/
+    --fs-lg: 65px;
+    --fs-h2: 50px;
+    --fs-h3: 40px;
+    --fs-h4: 35px;
+    --fs-h5: 30px;
+    --fs-h6: 25px;
+    --fs-description: 20px;
+    --fs-btn: 16px;
+    --fs-subtext: 15px;
+    --fs-small: 12px;
+
+    /*color*/
+    --DeepOrange-500: #FF6336;
+    --DeepOrange-300: #FF9C7D;
+    --DeepOrange-300: #FFF8E4;
+    --Blue-100: #C9E8F2;
+    --Brown-300: #DABC98;
+    --black: #000000;
+    --silver: #EEEEEE;
+    --white: #fff;
+
+    /*container*/
+    --container-width: 1330px;
+    --container-space: 25px;
+}
+
+body {
+    font-family: 'Graphik LCG', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*container*/
+
+.container {
+    max-width: calc(var(--container-width) + var(--container-space)*2);
+    padding: 0 var(--container-space);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

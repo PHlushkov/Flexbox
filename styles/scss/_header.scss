@@ -1,0 +1,42 @@
+/*header*/
+
+.header {
+    padding: 34px 0px 33px 0px;
+    border-bottom: 1px solid var(--silver);
+
+}
+
+.navigation {
+    gap: 51px;
+}
+
+.nav {
+    justify-content: space-between;
+    gap: 10px;
+
+
+    &__list {
+        gap: 41px;
+    }
+
+    &__authorization {
+        gap: 10px;
+    }
+
+    &__btn {
+        padding: 0px 36px;
+        line-height: 45px;
+    }
+
+    &__btn-buy {
+        padding: 1px 22px;
+        line-height: 45px;
+    }
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--black)
+}
