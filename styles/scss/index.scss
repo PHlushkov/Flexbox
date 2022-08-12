@@ -51,6 +51,7 @@
 /*main*/
 
 .title {
+    gap: 19px;
     padding-top: 129px;
     justify-content: space-between;
 
@@ -94,14 +95,19 @@
 }
 
 .company {
+    padding-top: 108px;
+
     &__title {
-        padding-top: 108px;
-        max-width: 720px;
         text-align: center;
+        justify-content: center;
+    }
+
+    &__h2 {
+        max-width: 720px;
     }
 
     &__list {
-        padding-top: 70px;
+        margin-top: 70px;
         justify-content: space-around;
         gap: 10px;
     }
@@ -111,7 +117,7 @@
     padding-top: 90px;
     display: flex;
     flex-direction: column;
-    gap: 250px;
+    gap: 15vw;
     padding-bottom: 150px;
 }
 
@@ -162,6 +168,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 75px;
+    gap: 75px;
 }
 
 .card-localize {
@@ -170,17 +178,16 @@
     align-items: center;
     gap: 20px;
     max-width: 333px;
-    padding-top: 75px;
 }
 
 .section-productivity {
-    padding-top: 154px;
+    margin-top: 154px;
     padding-bottom: 180px;
 
     &__block {
-        padding-top: 75px;
-        justify-content: space-between;
-        gap: 30px;
+        margin-top: 75px;
+        justify-content: center;
+        gap: 54px;
     }
 }
 
@@ -223,6 +230,7 @@
     padding-top: 80px;
     padding-bottom: 84px;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .software-info {
@@ -240,6 +248,7 @@
 
 .software-company {
     gap: 70px;
+    justify-content: center;
 
     &__vertical {
         width: 1px;
@@ -294,13 +303,14 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    overflow-wrap: anywhere;
 
     &__tittle {
         max-width: 784px;
-        padding-bottom: 29px;
+        margin-bottom: 29px;
     }
 
     &__txt {
-        padding-bottom: 54px;
+        margin-bottom: 54px;
     }
 }
