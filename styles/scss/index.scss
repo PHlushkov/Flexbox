@@ -1,5 +1,6 @@
 @import './reset';
 @import './fonts';
+@import './media';
 @import './header';
 @import './footer';
 
@@ -51,6 +52,7 @@
 /*main*/
 
 .title {
+    overflow-wrap: anywhere;
     gap: 19px;
     padding-top: 129px;
     justify-content: space-between;
@@ -100,6 +102,7 @@
     &__title {
         text-align: center;
         justify-content: center;
+        overflow-wrap: anywhere;
     }
 
     &__h2 {
