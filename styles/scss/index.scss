@@ -52,7 +52,6 @@
 /*main*/
 
 .title {
-    overflow-wrap: anywhere;
     gap: 19px;
     padding-top: 129px;
     justify-content: space-between;
@@ -69,6 +68,22 @@
         line-height: 35px;
         color: var(--black);
     }
+
+    @media screen and (max-width: 1380px) {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        &__info {
+            gap: 50px;
+            max-width: 552px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-wrap: anywhere;
+        }
+    }
+
 }
 
 .function {
@@ -122,38 +137,61 @@
     flex-direction: column;
     gap: 15vw;
     padding-bottom: 150px;
+
 }
 
+
 .block-location {
-    justify-content: space-between;
     gap: 20px;
+    justify-content: space-between;
+
+
+    @media screen and (max-width:1202px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .control-block {
     &__description {
-        max-width: 493px;
+        max-width: 500px;
         gap: 30px;
     }
+
+
 }
+
+
 
 .shorten-block {
     &__description {
-        max-width: 450px;
+        max-width: 500px;
         gap: 30px;
+    }
+
+    @media screen and (max-width:1202px) {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
 .ensure-block {
     &__description {
-        max-width: 520px;
+        max-width: 500px;
         gap: 30px;
     }
 }
 
 .lesswork-block {
+    @media screen and (max-width:1202px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     &__description {
-        max-width: 520px;
+        max-width: 500px;
         gap: 30px;
+
     }
 }
 
@@ -173,6 +211,11 @@
     flex-wrap: wrap;
     margin-top: 75px;
     gap: 75px;
+
+    @media screen and (max-width:1200px) {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .card-localize {
@@ -199,6 +242,13 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 35px;
+
+    @media screen and (max-width:920px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }
 
 .section-wrap {
@@ -210,6 +260,14 @@
     padding-bottom: 105px;
     justify-content: space-between;
     gap: 20px;
+
+    @media screen and (max-width:1300px) {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
 
     &__description {
         max-width: 920px;
@@ -238,6 +296,12 @@
 
 .software-info {
     gap: 67px;
+
+    @media screen and (max-width:755px) {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 
     &__logo {
         max-width: 176px;

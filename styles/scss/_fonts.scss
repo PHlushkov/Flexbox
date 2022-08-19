@@ -1,9 +1,14 @@
 /*fonts*/
 
 .txt-tittle {
+
     font-weight: 600;
     font-size: var(--fs-lg);
     line-height: 70px;
+
+    @media screen and (max-width: 576px) {
+        font-size: 40px;
+    }
 }
 
 .txt-subtext {
@@ -18,6 +23,12 @@
     font-size: var(--fs-h2);
     line-height: 60px;
     color: var(--black);
+
+    @media screen and (max-width: 576px) {
+        font-size: 40px;
+        text-align: center;
+    }
+
 }
 
 .h5 {
@@ -72,6 +83,8 @@
     font-weight: 600;
     font-size: var(--fs-h4);
     line-height: 50px;
+
+
 }
 
 .toolls-txt {

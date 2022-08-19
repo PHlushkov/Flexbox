@@ -62,6 +62,11 @@ ul {
   font-size: var(--fs-lg);
   line-height: 70px;
 }
+@media screen and (max-width: 576px) {
+  .txt-tittle {
+    font-size: 40px;
+  }
+}
 
 .txt-subtext {
   font-weight: 400;
@@ -75,6 +80,12 @@ ul {
   font-size: var(--fs-h2);
   line-height: 60px;
   color: var(--black);
+}
+@media screen and (max-width: 576px) {
+  .h2 {
+    font-size: 40px;
+    text-align: center;
+  }
 }
 
 .h5 {
@@ -166,226 +177,6 @@ ul {
   color: var(--black);
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  flex-basis: 0;
-  flex-grow: 1;
-}
-
-.col-1 {
-  flex: 0 0 auto;
-  width: 8.3333333333%;
-}
-
-.col-2 {
-  flex: 0 0 auto;
-  width: 16.6666666667%;
-}
-
-.col-3 {
-  flex: 0 0 auto;
-  width: 25%;
-}
-
-.col-4 {
-  flex: 0 0 auto;
-  width: 33.3333333333%;
-}
-
-.col-5 {
-  flex: 0 0 auto;
-  width: 41.6666666667%;
-}
-
-.col-6 {
-  flex: 0 0 auto;
-  width: 50%;
-}
-
-.col-7 {
-  flex: 0 0 auto;
-  width: 58.3333333333%;
-}
-
-.col-8 {
-  flex: 0 0 auto;
-  width: 66.6666666667%;
-}
-
-.col-9 {
-  flex: 0 0 auto;
-  width: 75%;
-}
-
-.col-10 {
-  flex: 0 0 auto;
-  width: 83.3333333333%;
-}
-
-.col-11 {
-  flex: 0 0 auto;
-  width: 91.6666666667%;
-}
-
-.col-12 {
-  flex: 0 0 auto;
-  width: 100%;
-}
-
-@media all and (max-width: 576px) {
-  .col-sm-1 {
-    flex: 0 0 auto;
-    width: 8.3333333333%;
-  }
-  .col-sm-2 {
-    flex: 0 0 auto;
-    width: 16.6666666667%;
-  }
-  .col-sm-3 {
-    flex: 0 0 auto;
-    width: 25%;
-  }
-  .col-sm-4 {
-    flex: 0 0 auto;
-    width: 33.3333333333%;
-  }
-  .col-sm-5 {
-    flex: 0 0 auto;
-    width: 41.6666666667%;
-  }
-  .col-sm-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-  .col-sm-7 {
-    flex: 0 0 auto;
-    width: 58.3333333333%;
-  }
-  .col-sm-8 {
-    flex: 0 0 auto;
-    width: 66.6666666667%;
-  }
-  .col-sm-9 {
-    flex: 0 0 auto;
-    width: 75%;
-  }
-  .col-sm-10 {
-    flex: 0 0 auto;
-    width: 83.3333333333%;
-  }
-  .col-sm-11 {
-    flex: 0 0 auto;
-    width: 91.6666666667%;
-  }
-  .col-sm-12 {
-    flex: 0 0 auto;
-    width: 100%;
-  }
-}
-@media all and (min-width: 576px) and (max-width: 1200px) {
-  .col-md-1 {
-    flex: 0 0 auto;
-    width: 8.3333333333%;
-  }
-  .col-md-2 {
-    flex: 0 0 auto;
-    width: 16.6666666667%;
-  }
-  .col-md-3 {
-    flex: 0 0 auto;
-    width: 25%;
-  }
-  .col-md-4 {
-    flex: 0 0 auto;
-    width: 33.3333333333%;
-  }
-  .col-md-5 {
-    flex: 0 0 auto;
-    width: 41.6666666667%;
-  }
-  .col-md-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-  .col-md-7 {
-    flex: 0 0 auto;
-    width: 58.3333333333%;
-  }
-  .col-md-8 {
-    flex: 0 0 auto;
-    width: 66.6666666667%;
-  }
-  .col-md-9 {
-    flex: 0 0 auto;
-    width: 75%;
-  }
-  .col-md-10 {
-    flex: 0 0 auto;
-    width: 83.3333333333%;
-  }
-  .col-md-11 {
-    flex: 0 0 auto;
-    width: 91.6666666667%;
-  }
-  .col-md-12 {
-    flex: 0 0 auto;
-    width: 100%;
-  }
-}
-@media all and (min-width: 1200px) {
-  .col-lg-1 {
-    flex: 0 0 auto;
-    width: 8.3333333333%;
-  }
-  .col-lg-2 {
-    flex: 0 0 auto;
-    width: 16.6666666667%;
-  }
-  .col-lg-3 {
-    flex: 0 0 auto;
-    width: 25%;
-  }
-  .col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.3333333333%;
-  }
-  .col-lg-5 {
-    flex: 0 0 auto;
-    width: 41.6666666667%;
-  }
-  .col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-  .col-lg-7 {
-    flex: 0 0 auto;
-    width: 58.3333333333%;
-  }
-  .col-lg-8 {
-    flex: 0 0 auto;
-    width: 66.6666666667%;
-  }
-  .col-lg-9 {
-    flex: 0 0 auto;
-    width: 75%;
-  }
-  .col-lg-10 {
-    flex: 0 0 auto;
-    width: 83.3333333333%;
-  }
-  .col-lg-11 {
-    flex: 0 0 auto;
-    width: 91.6666666667%;
-  }
-  .col-lg-12 {
-    flex: 0 0 auto;
-    width: 100%;
-  }
-}
 /*header*/
 .header {
   padding: 34px 0px 33px 0px;
@@ -527,7 +318,6 @@ ul {
 
 /*main*/
 .title {
-  overflow-wrap: anywhere;
   gap: 19px;
   padding-top: 129px;
   justify-content: space-between;
@@ -542,6 +332,21 @@ ul {
   font-size: 25px;
   line-height: 35px;
   color: var(--black);
+}
+@media screen and (max-width: 1380px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .title__info {
+    gap: 50px;
+    max-width: 552px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: anywhere;
+  }
 }
 
 .function {
@@ -593,27 +398,45 @@ ul {
 }
 
 .block-location {
-  justify-content: space-between;
   gap: 20px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1202px) {
+  .block-location {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .control-block__description {
-  max-width: 493px;
+  max-width: 500px;
   gap: 30px;
 }
 
 .shorten-block__description {
-  max-width: 450px;
+  max-width: 500px;
   gap: 30px;
+}
+@media screen and (max-width: 1202px) {
+  .shorten-block {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 .ensure-block__description {
-  max-width: 520px;
+  max-width: 500px;
   gap: 30px;
 }
 
+@media screen and (max-width: 1202px) {
+  .lesswork-block {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 .lesswork-block__description {
-  max-width: 520px;
+  max-width: 500px;
   gap: 30px;
 }
 
@@ -633,6 +456,12 @@ ul {
   flex-wrap: wrap;
   margin-top: 75px;
   gap: 75px;
+}
+@media screen and (max-width: 1200px) {
+  .cards-localize {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .card-localize {
@@ -659,6 +488,14 @@ ul {
   align-items: flex-start;
   gap: 35px;
 }
+@media screen and (max-width: 920px) {
+  .productivity-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
 
 .section-wrap {
   background-color: var(--Blue-100);
@@ -669,6 +506,13 @@ ul {
   padding-bottom: 105px;
   justify-content: space-between;
   gap: 20px;
+}
+@media screen and (max-width: 1300px) {
+  .improve-block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 .improve-block__description {
   max-width: 920px;
@@ -694,6 +538,13 @@ ul {
 
 .software-info {
   gap: 67px;
+}
+@media screen and (max-width: 755px) {
+  .software-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 .software-info__logo {
   max-width: 176px;
